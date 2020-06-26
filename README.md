@@ -1,4 +1,4 @@
-# Video-Object-Segmentation
+# Video-Object-Segmentation [currently working]
 ![image](https://github.com/FangLintao/Video-Object-Segmentation/blob/master/images/cover.png)
 ## 1. Introduction
 Video Object Segmentation is to track objects in video and segment objects from video. Video Object Segmentation is one of main techs in computer vision and it has widely-used field in practical application.
@@ -56,6 +56,8 @@ Atrous Spatial Pyramid Pooling is actually Atrous Dilated Convolution. In DeepLa
 
     Ⅰ. two 3*3 convolution layers   
     Ⅱ. one 1*1 convolution layer 
- 
+
+## training&testing
+## result
 ## Reference
 Ⅰ. Unsupervised Video Object Segmentation with Co-Attention Siamese Networks,Xiankai Lu,Wenguan Wang,Chao Ma,Jianbing Shen,Ling Shao,Fatih Porikli, Inception Institute of Artificial Intelligence, UAE
