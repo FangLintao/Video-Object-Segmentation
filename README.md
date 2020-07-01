@@ -35,6 +35,10 @@ To visualize the images distribution in train_set and val_set, running below cod
 ## 3. [Architecture](https://github.com/FangLintao/Video-Object-Segmentation/blob/master/model/UVOS.py)
 ![image](https://github.com/FangLintao/Video-Object-Segmentation/blob/master/images/1.png)  
 ###### reference: Unsupervised Video Object Segmentation with Co-Attention Siamese Networks,Xiankai Lu,Wenguan Wang,Chao Ma,Jianbing Shen,Ling Shao,Fatih Porikli
+##### Main Characteristics
+Ⅰ。DeepLabV3 offers static analysis on video frames while co-attention offers dynamic analysis on pairs of video frame;s  
+Ⅱ. co-attention = channel-wise attention + gate attention;  
+Ⅲ. Using co-attention algorithm to fuse feature maps infromation in pairs of frames from the same video so that objects in one video can be tracked and locked, which is convenient to segment objects from background;  
 ### 3.1 Architecture Components
 Ⅰ. DeepLebV3  
 Ⅱ. Co-attention  
@@ -45,7 +49,7 @@ Pretrained weighted DeepLabV3 model
     https://drive.google.com/file/d/1hy0-BAEestT9H4a3Sv78xrHrzmZga9mj/view
 
 Traditional DeepLabv3 architecture consist of ResNet101 and [Atrous Spatial Pyramid Pooling](https://towardsdatascience.com/review-deeplabv1-deeplabv2-atrous-convolution-semantic-segmentation-b51c5fbde92d).However, because of limited of GPU memory, ResNet101 is switched into ResNet50.  
--> Atrous Spatial Pyramid Pooling  
+##### Atrous Spatial Pyramid Pooling  
 Atrous Spatial Pyramid Pooling is actually Atrous Dilated Convolution. In DeepLabV3, it use dilated rate [6,12,18] to process feature maps, extracting the features containing more useful information. After combining them all together, ASPP creates the final global feature. In this case, ASPP offers more information and higher accuracy   
 #### Co-attention
 ![image](https://github.com/FangLintao/Video-Object-Segmentation/blob/master/images/3.png)    
