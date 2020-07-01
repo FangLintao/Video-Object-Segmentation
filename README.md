@@ -36,8 +36,8 @@ To visualize the images distribution in train_set and val_set, running below cod
 ![image](https://github.com/FangLintao/Video-Object-Segmentation/blob/master/images/1.png)  
 ###### reference: Unsupervised Video Object Segmentation with Co-Attention Siamese Networks,Xiankai Lu,Wenguan Wang,Chao Ma,Jianbing Shen,Ling Shao,Fatih Porikli
 ##### Main Characteristics
-Ⅰ。DeepLabV3 offers static analysis on video frames while co-attention offers dynamic analysis on pairs of video frame;s  
-Ⅱ. co-attention = channel-wise attention + gate attention;  
+Ⅰ.DeepLabV3 offers static analysis on video frames while co-attention offers dynamic analysis on pairs of video frame;s  
+Ⅱ. Co-attention = channel-wise attention + gate attention;  
 Ⅲ. Using co-attention algorithm to fuse feature maps infromation in pairs of frames from the same video so that objects in one video can be tracked and locked, which is convenient to segment objects from background;  
 ### 3.1 Architecture Components
 Ⅰ. DeepLebV3  
