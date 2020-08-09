@@ -63,7 +63,7 @@ Atrous Spatial Pyramid Pooling is actually Atrous Dilated Convolution. In DeepLa
 
 ## Implementation
 ### Device Requirement
-Ⅰ. GPU 8G
+Ⅰ. GPU 8G  
 Ⅱ. Pytorch
 
         For Training  
