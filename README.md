@@ -61,7 +61,15 @@ Atrous Spatial Pyramid Pooling is actually Atrous Dilated Convolution. In DeepLa
     Ⅰ. two 3*3 convolution layers   
     Ⅱ. one 1*1 convolution layer 
 
-## training&testing
-## result
+## Implementation
+### Device Requirement
+Ⅰ. GPU 8G
+Ⅱ. Pytorch
+
+        For Training  
+        --  TIANCHI-Training.py  
+        For Testing  
+        --  TIANCHI-Testing.py
+
 ## Reference
 Ⅰ. Unsupervised Video Object Segmentation with Co-Attention Siamese Networks,Xiankai Lu,Wenguan Wang,Chao Ma,Jianbing Shen,Ling Shao,Fatih Porikli, Inception Institute of Artificial Intelligence, UAE
