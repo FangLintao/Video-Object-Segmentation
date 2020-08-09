@@ -1,4 +1,4 @@
-# Video-Object-Segmentation [currently working]
+# Video-Object-Segmentation
 ![image](https://github.com/FangLintao/Video-Object-Segmentation/blob/master/images/cover.png)
 ## 1. Introduction
 Video Object Segmentation is to track objects in video and segment objects from video. Video Object Segmentation is one of main techs in computer vision and it has widely-used field in practical application.
